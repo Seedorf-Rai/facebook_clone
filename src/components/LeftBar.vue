@@ -36,6 +36,8 @@ components: {LeftBox}
   width: 23.5vw;
   overflow-y: hidden !important;
   /* position: sticky; */
+  position: fixed !important;
+  left: 0;
 }
 .line{
   width: 100%;
