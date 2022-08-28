@@ -1,6 +1,6 @@
 <template>
   <div class="sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -100,6 +100,10 @@ nav{
     background-color: #252527 !important;
     padding: 0 1%;
 
+}
+.sticky-top{
+  position: fixed;
+  top: 0;
 }
 .navbar-nav{
     position: relative;
